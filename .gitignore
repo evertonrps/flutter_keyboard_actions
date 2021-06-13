@@ -31,7 +31,6 @@ keystore.properties
 gradlew
 gradlew.bat
 gradle-wrapper.jar
-*.iml
 
 # Flutter generated files 
 GeneratedPluginRegistrant.h
