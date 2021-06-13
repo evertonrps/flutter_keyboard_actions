@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:keyboard_actions/external/keyboard_avoider/bottom_area_avoider.dart';
-import 'package:keyboard_actions/external/platform_check/platform_check.dart';
+import 'package:keyboard_actions_pt_br/external/keyboard_avoider/bottom_area_avoider.dart';
+import 'package:keyboard_actions_pt_br/external/platform_check/platform_check.dart';
 import 'keyboard_actions_item.dart';
 export 'keyboard_actions_item.dart';
 import 'keyboard_actions_config.dart';
@@ -488,7 +488,7 @@ class KeyboardActionstate extends State<KeyboardActions>
                       padding:
                           EdgeInsets.symmetric(vertical: 8.0, horizontal: 12.0),
                       child: Text(
-                        "Done",
+                        "OK",
                         style: TextStyle(
                           fontSize: 16.0,
                           fontWeight: FontWeight.w500,

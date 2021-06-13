@@ -128,7 +128,7 @@ class _ContentState extends State<Content> {
                   color: Colors.white,
                   padding: EdgeInsets.all(8.0),
                   child: Text(
-                    "CLOSE",
+                    "FECHAR",
                     style: TextStyle(color: Colors.black),
                   ),
                 ),
@@ -142,7 +142,7 @@ class _ContentState extends State<Content> {
                   color: Colors.black,
                   padding: EdgeInsets.all(8.0),
                   child: Text(
-                    "DONE",
+                    "OK",
                     style: TextStyle(color: Colors.white),
                   ),
                 ),

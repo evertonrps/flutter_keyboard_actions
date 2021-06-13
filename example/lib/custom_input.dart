@@ -128,7 +128,7 @@ class NumericKeyboard extends StatelessWidget
   }
 
   void _onTapNumber(String value) {
-    if (value == "Done") {
+    if (value == "OK") {
       focusNode.unfocus();
       return;
     }
@@ -170,7 +170,7 @@ class NumericKeyboard extends StatelessWidget
             _buildButton(text: "3"),
             _buildButton(icon: Icons.backspace, color: Colors.black),
             _buildButton(text: "0"),
-            _buildButton(text: "Done", color: Colors.black),
+            _buildButton(text: "OK", color: Colors.black),
           ],
         ),
       ),
